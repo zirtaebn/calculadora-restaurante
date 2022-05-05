@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(57, 182, 182) ;
+}
+
+
+.container > .first-panel{
+  
+   background: white;
+   align-items: center;
+}
+
+
+.container > .first-panel, .second-panel{
+  
+    padding: 30px;
+    min-height: 40vh;
+    min-width: 420px;
+    border-radius: 10px;  
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    overflow-y: hidden; 
+}
+
+
+p{
+
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.container > .first-panel > .row-service > .service{
+
+    padding: 5px;
+    width: 50px;
+    margin: 10px 5px 35px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(13, 92, 81);
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+
+/* .container > .first-panel > .row-service > .custom{
+
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(13, 92, 81);
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container > .first-panel > .custom-div > .custom-input{
+
+    margin: 5px 0 25px 0;
+    border-radius: 5px;
+    border: none;
+    background: rgb(209, 208, 208);
+    height: 20px;
+    font-size: 15px;
+    display: flex;
+    padding: 2px;
+    text-align:end;
+} */
+
+
+.container > .first-panel > .information-input{
+
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    column-gap: 50px;
+    row-gap: 10px;   
+}
+
+
+.container > .first-panel > .information-input > input{
+
+    border-radius: 5px;
+    border: none;
+    background: rgb(209, 208, 208);
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.container > .first-panel > .add-people{
+
+    margin-top: 15px;
+    padding: 5px;
+    width: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: rgb(13, 92, 81);
+    color: white;
+    border: none;  
+    font-size: 15px;
+}
+
+
+.container > .first-panel > .add-people:hover{
+
+    background: rgb(57, 182, 182);
+    color: rgb(10, 68, 68);
+}
+
+
+.container > .first-panel > .calculate-bill{
+
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background: rgb(13, 92, 81);
+    color: white;
+    font-size: 15px;
+    
+
+}
+
+
+.container > .first-panel > .calculate-bill:hover{
+
+    background: rgb(57, 182, 182);
+    color:rgb(10, 68, 68);
+}
+
+
+.container > .second-panel{
+
+    background-color: rgb(13, 92, 81);
+    color: white;
+    font-size: 17px;
+    display: none;
+    /* border: 1px solid white; */
+  
+    
+}
+
+
+.container > .second-panel > .result-div, .total-div{
+
+    margin: 15px 0 10px 0;
+}
+
+
+.container > .second-panel > .result-div{
+
+    
+    padding: 3.5px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(58, 131, 131);
+    /* background-color: rgb(58, 131, 131); */
+    display: flex;
+    justify-content: center;
+}
+
+
+.container > .second-panel > .total-div{
+
+    border-bottom: 2px dotted rgb(58, 131, 131);
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* .container > .reset-bttn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+.container > .reset-bttn > button{
+
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: rgb(13, 92, 81);
+    color: white;
+    border: none;  
+    font-size: 15px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
